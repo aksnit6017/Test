@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<g>
+	
+		<ellipse fill="none" stroke="#65CAE0" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="12.3887,12.3887" cx="50.3" cy="50.3" rx="47.7" ry="47">
+			<animateTransform attributeName="transform"
+				attributeType="XML"
+				type="rotate"
+				from="0 50 50"
+				to="360 50 50"
+				dur="10s"
+				repeatCount="indefinite" />
+
+		</ellipse>
+</g>
+<ellipse fill="#2C92A3" cx="50.3" cy="50.3" rx="37.2" ry="36.7"/>
+<path fill="#FAFDFD" d="M35.7,64.3h-0.5c-0.8,0-1.5-0.7-1.5-1.5V37.9c0-0.8,0.7-1.5,1.5-1.5h0.5c0.8,0,1.5,0.7,1.5,1.5v24.9
+	C37.2,63.6,36.5,64.3,35.7,64.3z">
+
+	<animateTransform id="akash"
+				attributeName="transform"
+				attributeType="XML"
+				type="translate"
+				dur="1s"
+				values="0,6;0,-6;0,6"
+				repeatCount="indefinite"/>
+
+</path>
+<path fill="#FAFDFD" d="M43,64.3h-0.5c-0.8,0-1.5-0.7-1.5-1.5V37.9c0-0.8,0.7-1.5,1.5-1.5H43c0.8,0,1.5,0.7,1.5,1.5v24.9
+	C44.5,63.6,43.8,64.3,43,64.3z">
+
+	<animateTransform id="akash"
+				attributeName="transform"
+				attributeType="XML"
+				type="translate"
+				begin=".1"
+				dur="1s"
+				values="0,6;0,-6;0,6"
+				repeatCount="indefinite"/>
+
+</path>
+<path fill="#FAFDFD" d="M50.8,64.3h-0.5c-0.8,0-1.5-0.7-1.5-1.5V37.9c0-0.8,0.7-1.5,1.5-1.5h0.5c0.8,0,1.5,0.7,1.5,1.5v24.9
+	C52.3,63.6,51.6,64.3,50.8,64.3z">
+
+	<animateTransform id="akash"
+				attributeName="transform"
+				attributeType="XML"
+				type="translate"
+				begin=".2"
+				dur="1s"
+				values="0,6;0,-6;0,6"
+				repeatCount="indefinite"/>
+
+</path>
+<path fill="#FAFDFD" d="M57.7,64.3h-0.5c-0.8,0-1.5-0.7-1.5-1.5V37.9c0-0.8,0.7-1.5,1.5-1.5h0.5c0.8,0,1.5,0.7,1.5,1.5v24.9
+	C59.2,63.6,58.6,64.3,57.7,64.3z">
+
+	<animateTransform id="akash"
+				attributeName="transform"
+				attributeType="XML"
+				type="translate"
+				begin=".3"
+				dur="1s"
+				values="0,6;0,-6;0,6"
+				repeatCount="indefinite"/>
+
+</path>
+<path fill="#FAFDFD" d="M65.5,64.3H65c-0.8,0-1.5-0.7-1.5-1.5V37.9c0-0.8,0.7-1.5,1.5-1.5h0.5c0.8,0,1.5,0.7,1.5,1.5v24.9
+	C67,63.6,66.3,64.3,65.5,64.3z">
+
+	<animateTransform id="akash"
+				attributeName="transform"
+				attributeType="XML"
+				type="translate"
+				begin=".4"
+				dur="1s"
+				values="0,6;0,-6;0,6"
+				repeatCount="indefinite"/>
+
+</path>
+</svg>

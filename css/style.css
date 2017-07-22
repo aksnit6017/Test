@@ -1,0 +1,404 @@
+/*******CSS*********/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  padding:2%;
+  color: #fff;
+  font-family: 'Rancho', cursive;
+}
+
+#Loadd{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 900;
+  background-color: black;
+  text-align: center;
+}
+
+header{
+  position: fixed;
+  z-index: 100;
+  background-color: #161616;
+  width: 100%;
+  transition: all 0.5s;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-family: 'Acme', sans-serif;
+    display: inline-block;
+    padding: 25px;
+}
+
+li2{
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navlink{
+    text-transform: uppercase;
+}
+
+#namesmall{
+  display: none;
+}
+
+#logo{
+    margin: 20px;
+    margin-left: 40px;
+    float: left;
+    display: block;
+}
+
+nav{
+    float: left;
+    padding: 20px;
+    padding-right: 40px;
+}
+
+#social{
+    float: right;
+    text-align: center;
+    padding: 40px;
+}
+
+#front{
+    width: 100%;
+    background-image: url(../img/header-bg2.png);
+    height: 761px;
+    transition: all 0.5s;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.fb{
+    color : #3B5998;
+}
+
+.tw{
+    color: #24A3F2;
+}
+
+.ln{
+    color: #2088BD;
+}
+
+.gp{
+    color: #D64336;
+}
+
+.db{
+    color: #C32361;
+}
+
+.ins{
+    color: #E06356;
+}
+
+.sk{
+    color: #00AEED;
+}
+
+#front{
+    width: 100%;
+    background-image: url("../img/header-bg.png");
+    height: 650px;
+    transition: all 0.5s;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.intro{
+    font-family: 'Rancho', cursive;
+    color: white;
+    margin: 15%;
+    font-size: 300%;
+}
+
+span{
+    font-size: 180%;
+    line-height: -10px;
+}
+
+#pic{
+  text-align: center;
+  margin-top: -8%;
+}
+
+#picSmall{
+  display: none;
+}
+
+#Education{
+  background-color: #F64747;
+  position:absolute;
+  width: 100%;
+  height: 1300px;
+}
+
+.heading1{
+  text-align: center;
+  font-size: 250%;
+  font-weight: bold;
+  padding:2%;
+  font-family: 'Rancho', cursive;
+}
+
+.img1a{
+  width: 40%;
+  float: left;
+  padding-left: 8%;
+}
+
+.text1a{
+  width: 50%;
+  float: right;
+  font-size: 200%;
+}
+
+.img1b{
+  width: 40%;
+  float: left;
+  padding-left: 8%;
+}
+
+.text1b{
+  width: 50%;
+  float: right;
+  font-size: 200%;
+}
+
+#containerdiv{
+  background-color: #3498db;
+  padding: 2%;
+  margin: 2%;
+  height: 300px;
+  border: 2px #000 solid;
+}
+
+#containerdiv2{
+  background-color: #3498db;
+  padding: 2%;
+  margin: 2%;
+  height: 470px;
+  border: 2px #000 solid;
+}
+
+.img1a-sm{
+  display: none;
+}
+
+.img1b-sm{
+  display: none;
+}
+
+#skills{
+  position: relative;
+  top:1300px;
+  background-color: #14B29A;
+  height: 1000px;
+}
+
+#skillshead{
+  text-align: center;
+  color: #fff;
+  font-size: 200%;
+  background-color: #161616;
+  margin-bottom: 5%;
+}
+
+.logos{
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-top: 4%;
+  padding: 2%;
+  transition: all .5s;
+  padding-left: 5%;
+}
+
+#skillscontent{
+  background-color: #2C3E50;
+  text-align: center;
+}
+
+/******RESPONSIVE***********/
+
+@media screen and (max-width:1340px) and (min-width:768px){
+    .navlink{
+        font-size: 80%;
+        text-align: center;
+      }
+
+    li{
+    padding: 10px;
+    }
+    li2{
+    padding: 5px;
+    }
+
+    .text1a{
+    font-size: 150%;
+    text-align: center;
+  }
+
+  .text1b{
+    font-size: 150%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:916px){
+
+  header{
+    position: relative;
+  }
+
+  #logo{
+    display: none;
+  }
+
+  #namesmall{
+    display: block;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    padding: 2%;
+    margin-top: 20px;
+  }
+
+  .navlink{
+    text-align: center;
+  }
+
+  li{
+    padding: 10px;
+  }
+
+  nav{
+    text-align: center;
+    background-color: #3498db;
+    width: 100%;
+    font-size: 90%;
+    padding: 0;
+  }
+
+  #social{
+    float: right;
+    text-align: center;
+  }
+
+  a{
+    color: #000;
+  }
+
+  .intro{
+    font-family: 'Rancho', cursive;
+    color: white;
+    margin: 20%;
+    font-size: 250%;
+    text-align: center;
+  }
+
+  span{
+    font-size: 150%;
+    line-height: -10px;
+  }
+  
+  #pic{
+    display: none;
+  }
+
+  #picSmall{
+    display: block;
+    text-align: center;
+  }
+
+  #front{
+    height: 850px;
+  }
+
+  .img1a{
+    display: none;
+  }
+
+  .img1a-sm{
+    display: block;
+    text-align: center;
+  }
+
+  .text1a{
+    width: 100%;
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .img1b{
+    display: none;
+  }
+  .img1b-sm{
+    display: block;
+    text-align: center;
+  }
+
+  .text1b{
+    width: 100%;
+    font-size: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:885px){
+
+  #Education{
+    height: 1100px;
+  }
+
+  #skills{
+    top:1050px;
+    height: 800px;
+    background-color: #14B29A;
+  }
+
+}
+
+@media screen and (max-width:600px){
+  
+  .logos{
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 4%;
+  background-color: #F2784B;
+  }
+
+  #Education{
+    height: 900px;
+  }
+
+  
+#skills{
+  top:900px;
+  height: auto;
+  background-color: #14B29A;
+}
+
+
+}
